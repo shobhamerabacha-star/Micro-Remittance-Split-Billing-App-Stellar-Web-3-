@@ -5,8 +5,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment & Secrets
-.env
-.env.*
 !.env.example
 *.pem
 *.key
@@ -30,9 +28,9 @@ dist/
 Thumbs.db
 
 # IDE & Editor
-.vscode/
 .idea/
 *.swp
 *.swo
 *.sublime-project
 *.sublime-workspace
+config.bat
